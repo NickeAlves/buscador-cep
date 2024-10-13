@@ -60,9 +60,13 @@ public class Main {
                         .send(request, HttpResponse.BodyHandlers.ofString());
                 String json = response.body();
 
-                Endereco endereco = gson.fromJson(json, Endereco.class);
-                endereco.setNumero(numeroLogradouro);
-                enderecos.add(endereco);
+                if (json.contains("\"erro\"")) {
+                    System.out.println("Endereço não existente!");
+                } else {
+                    Endereco endereco = gson.fromJson(json, Endereco.class);
+                    endereco.setNumero(numeroLogradouro);
+                    enderecos.add(endereco);
+                }
 
                 for (Endereco e : enderecos) {
                     System.out.println(e);
