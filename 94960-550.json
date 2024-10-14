@@ -1,0 +1,18 @@
+[
+  {
+    "cep": "91170-200",
+    "logradouro": "Rua dos Maias",
+    "bairro": "Rubem Berta",
+    "localidade": "Porto Alegre",
+    "uf": "RS",
+    "numero": 1311
+  },
+  {
+    "cep": "94960-550",
+    "logradouro": "Rua Sebaldo Bolzer",
+    "bairro": "Parque Granja Esperança",
+    "localidade": "Cachoeirinha",
+    "uf": "RS",
+    "numero": 90
+  }
+]

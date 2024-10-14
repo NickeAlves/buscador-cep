@@ -7,6 +7,7 @@
     <list default="true" id="17b8837e-9e94-4a60-b789-ff18658e0d85" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/buscadorcep/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/buscadorcep/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/buscadorcep/validacao/ValidadorCep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/buscadorcep/validacao/ValidadorCep.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +24,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "NickeAlves"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:NickeAlves/buscador-cep.git",
+    "accountId": "607a7852-7425-41ce-8b1e-0df3da5d65ad"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>

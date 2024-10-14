@@ -8,7 +8,9 @@ public class ValidadorCep {
         String cepValido = cep.replaceAll("[- ]", "");
 
         if (cepValido.length() != 8) {
-            throw new ErroCaracteresCep("Erro: O CEP deve conter exatamente 8 caracteres. Favor, inserir novamente.");
+            throw new ErroCaracteresCep("""
+                    Erro: O CEP deve conter exatamente 8 caracteres. Favor, inserir novamente.
+                    """);
         }
 
         return cepValido;

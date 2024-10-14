@@ -8,6 +8,7 @@ import com.google.gson.FieldNamingPolicy;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
+import java.io.FileWriter;
 import java.io.IOException;
 import java.net.URI;
 import java.net.http.HttpClient;
@@ -66,6 +67,9 @@ public class Main {
                     Endereco endereco = gson.fromJson(json, Endereco.class);
                     endereco.setNumero(numeroLogradouro);
                     enderecos.add(endereco);
+                    FileWriter gerarArquivo = new FileWriter(endereco.getCep() + ".json");
+                    gerarArquivo.write(gson.toJson(enderecos));
+                    gerarArquivo.close();
                 }
 
                 for (Endereco e : enderecos) {
